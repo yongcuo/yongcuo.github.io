@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>其美拥措 - 学术主页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home">其美拥措</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#research">研究方向</a></li>
+                    <li><a href="#publications">发表论文</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h1>欢迎访问我的学术主页</h1>
+                <p>医学影像研究者 
