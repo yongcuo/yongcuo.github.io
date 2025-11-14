@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>其美拥措 - 个人学术主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">其美拥措</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#experience">校园经历</a></li>
+                <li><a href="#knowledge">知识图谱</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <!-- 使用在线照片URL -->
+            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="其美拥措" class="profile-img">
+            <h1>其美拥措</h1>
+            <p>天津医科大学 医学影像学 本科生</p>
+            <p>专注于医学影像技术的学习与研究</p>
+            <a href="#about" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>个人信息</h3>
+                    <p><strong>姓名：</strong>其美拥措</p>
+                    <p><strong>性别：</strong>女</p>
+                    <p><strong>年龄：</strong>22</p>
+                    <p><strong>电话：</strong>17784546550</p>
+                    <p><strong>邮箱：</strong>yongcuo2025@163.com</p>
+                    <h3>自我评价</h3>
+                    <p>本人是一名认真学习、勤学好进、热爱生活的学生，积极学习、认真对待每一次考试，并有一定的理论以及实践背景。学习态度认真，拥有良好的团队协作精神以及良好的沟通能力、组织协调能力，能够快速适应新的环境，执行能力强。熟练使用办公软件和网络搜索工具，提高效率。</p>
+                </div>
+                <div class="about-image">
+                    <!-- 使用在线照片URL -->
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="个人照片">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">教育背景</h2>
+            <div class="education-item">
+                <h3>天津医科大学</h3>
+                <p class="date">2022.8 - 至今</p>
+                <p><strong>专业：</strong>医学影像学 本科</p>
+                <p><strong>成绩：</strong>专业课程平均成绩80+，无挂科记录</p>
+                <p><strong>英语水平：</strong>英语四六级已过</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">校园经历</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>志愿活动</h3>
+                    <p>积极参加敬老院、献血屋等志愿活动</p>
+                </div>
+                <div class="experience-card">
+                    <h3>疫苗接种</h3>
+                    <p>曾参与接种疫苗工作的志愿活动</p>
+                </div>
+                <div class="experience-card">
+                    <h3>团队活动</h3>
+                    <p>作为一名共青团员，积极参加团会以及各种班级活动</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="container">
+            <h2 class="section-title">证书荣耀</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <h3>英语四级</h3>
+                    <p>CET-4 证书</p>
+                </div>
+                <div class="certificate-card">
+                    <h3>英语六级</h3>
+                    <p>CET-6 证书</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="knowledge">
+        <div class="container">
+            <h2 class="section-title">医学影像知识图谱</h2>
+            <p class="knowledge-description">基于磁共振成像(MRI)的知识图谱，展示相关概念和关系</p>
+            <div class="knowledge-graph">
+                <div class="graph-controls">
+                    <button id="zoom-in">放大</button>
+                    <button id="zoom-out">缩小</button>
+                    <button id="reset">重置</button>
+                </div>
+                <div class="css-knowledge-graph">
+                    <div class="node main" data-concept="磁共振成像">
+                        <span>磁共振成像</span>
+                    </div>
+                    <div class="node technique" data-concept="T1加权">
+                        <span>T1加权</span>
+                    </div>
+                    <div class="node technique" data-concept="T2加权">
+                        <span>T2加权</span>
+                    </div>
+                    <div class="node technique" data-concept="质子密度">
+                        <span>质子密度</span>
+                    </div>
+                    <div class="node material" data-concept="对比剂">
+                        <span>对比剂</span>
+                    </div>
+                    <div class="node component" data-concept="脉冲序列">
+                        <span>脉冲序列</span>
+                    </div>
+                    
+                    <!-- 连接线 -->
+                    <div class="connection conn1"></div>
+                    <div class="connection conn2"></div>
+                    <div class="connection conn3"></div>
+                    <div class="connection conn4"></div>
+                    <div class="connection conn5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📞 17784546550</span>
+                </div>
+                <div class="contact-item">
+                    <span>✉️ yongcuo2025@163.com</span>
+                </div>
+                <div class="contact-item">
+                    <span>🏫 天津医科大学</span>
+                </div>
+            </div>
+            <p class="copyright">© 2025 其美拥措 个人学术主页 |版权所有</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
