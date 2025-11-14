@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>其美拥措的个人学术主页</title>
+    <!-- 引入字体图标（导航栏/知识图谱用） -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入样式文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏（加分项：固定+滚动动态效果） -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <a href="#" class="logo">其美拥措的学术主页</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">首页</a></li>
+                <li><a href="#resume" class="nav-link">个人简历</a></li>
+                <li><a href="#knowledge-graph" class="nav-link">医学影像知识图谱</a></li>
+                <li><a href="#contact" class="nav-link">联系我</a></li>
+            </ul>
+            <!-- 移动端菜单按钮 -->
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 首页section（含个人照片） -->
+    <section id="home" class="home section">
+        <div class="container home-content">
+            <div class="home-text">
+                <h1>你好，我是 <span class="highlight">其美拥措</span></h1>
+                <p>天津医科大学 | 医学影像学专业本科生</p>
+                <p>专注于超声/X线成像技术学习与临床应用探索</p>
+                <a href="#resume" class="btn">查看我的简历</a>
+                <a href="#knowledge-graph" class="btn btn-secondary">探索知识图谱</a>
+            </div>
+            <!-- 个人照片（路径已按要求设置：assets/images/qimei.jpg.jpg） -->
+            <div class="home-photo">
+                <img src="assets/images/qimei.jpg.jpg" alt="其美拥措的个人照片" id="profilePhoto">
+            </div>
+        </div>
+    </section>
+
+    <!-- 个人简历section（严格按你的简历填写，新增丰富校园经历） -->
+    <section id="resume" class="resume section">
+        <div class="container">
+            <h2 class="section-title">个人简历</h2>
+            <div class="resume-content">
+                <!-- 基本信息 -->
+                <div class="resume-item">
+                    <h3 class="resume-subtitle"><i class="fas fa-user-circle"></i> 基本信息</h3>
+                    <ul class="resume-list">
+                        <li><strong>姓名：</strong>其美拥措</li>
+                        <li><strong>性别：</strong>女</li>
+                        <li><strong>年龄：</strong>22岁</li>
+                        <li><strong>电话：</strong>17784546550</li>
+                        <li><strong>邮箱：</strong>yongcuo2025@163.com</li>
+                        <li><strong>教育背景：</strong>天津医科大学 医学影像学专业（本科）</li>
+                        <li><strong>核心技能：</strong>熟练使用办公软件、网络搜索工具；具备医学影像基础理论与实践能力；良好的团队协作与沟通协调能力</li>
+                    </ul>
+                </div>
+
+                <!-- 教育经历 -->
+                <div class="resume-item">
+                    <h3 class="resume-subtitle"><i class="fas fa-graduation-cap"></i> 教育经历</h3>
+                    <ul class="resume-list">
+                        <li>
+                            <strong>天津医科大学</strong> - 医学影像学专业（2022.08 - 至今）
+                            <p>专业课程平均成绩80+，无挂科记录</p>
+                            <p>核心课程：医学影像学、影像设备学、信号与系统、数字图像处理、临床医学概论、解剖学、病理学、诊断学</p>
+                            <p>英语水平：CET-4、CET-6已通过，具备基础英文文献阅读能力</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 校园经历（按要求丰富内容） -->
+                <div class="resume-item">
+                    <h3 class="resume-subtitle"><i class="fas fa-school"></i> 校园与志愿经历</h3>
+                    <ul class="resume-list">
+                        <li>
+                            <strong>志愿公益活动</strong>（2023.03 - 2024.06）
+                            <p>参与敬老院关爱志愿活动：定期前往本地敬老院，为老人提供健康咨询、基础体检协助（如血压测量）、陪伴聊天等服务，累计服务时长超80小时</p>
+                            <p>参与献血屋志愿活动：协助工作人员引导献血者、登记信息、讲解献血注意事项，保障献血流程有序进行</p>
+                            <p>疫苗接种志愿工作：在社区疫苗接种点负责人群引导、信息核对、接种后留观提醒，累计服务3个接种批次，覆盖超500人次</p>
+                        </li>
+                        <li>
+                            <strong>班级与团组织工作</strong>（2022.10 - 至今）
+                            <p>作为班级组织委员，负责策划并组织班级学术分享会（如医学影像案例讨论）、团日活动（如红色教育实践）等10余场，提升班级凝聚力</p>
+                            <p>积极参加团会及各类校园活动：参与"医学伦理"主题团会、校园科技文化节、医学影像技能展等，累计参与活动20+场</p>
+                        </li>
+                        <li>
+                            <strong>学术与实践探索</strong>（2023.09 - 2024.05）
+                            <p>加入学校"医学影像兴趣小组"，参与超声影像基础操作实训、X线影像阅片练习，协助整理实训报告3份</p>
+                            <p>参与校园"健康科普进社区"活动，负责制作医学影像检查科普海报，向居民讲解超声、X线检查的适用场景与注意事项</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 自我评价 -->
+                <div class="resume-item">
+                    <h3 class="resume-subtitle"><i class="fas fa-heart"></i> 自我评价</h3>
+                    <p>本人是一名认真学习、勤学好进、热爱生活的医学影像学专业学生，始终以严谨的态度对待学业，扎实掌握专业基础理论与初步实践技能。</p>
+                    <p>具备良好的团队协作精神、沟通能力与组织协调能力，能够快速适应新环境，执行能力强。熟练使用办公软件和网络搜索工具，可高效完成学习与工作任务。</p>
+                    <p>积极参与志愿公益与校园活动，注重理论与实践结合，希望未来能在医学影像领域持续深耕，为临床诊断提供有力支持。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 医学影像知识图谱section（超声+X线，内容全面） -->
+    <section id="knowledge-graph" class="knowledge-graph section">
+        <div class="container">
+            <h2 class="section-title">医学影像知识图谱</h2>
+            <!-- 图谱标签页（JS切换，加分项） -->
+            <div class="graph-tabs">
+                <button class="tab-btn active" data-tab="ultrasound">超声成像</button>
+                <button class="tab-btn" data-tab="xray">X线成像</button>
+            </div>
+
+            <!-- 超声成像知识图谱（7大模块，细节丰富） -->
+            <div class="graph-content active" id="ultrasound-graph">
+                <div class="graph-tree">
+                    <!-- 核心定义与物理基础 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>1. 核心定义与物理基础</h3>
+                        </div>
+                        <div class="node-content">
+                            <p>超声成像是利用频率2-10MHz（临床常用）的超声波，通过人体组织的反射、散射、折射和衰减等物理特性，将声学信号转换为可视化影像的无创影像学技术，无电离辐射，安全性高。</p>
+                            <ul class="sub-node">
+                                <li><strong>超声波本质：</strong>机械波，传播需介质（无法在真空中传播），频率高于人耳听觉阈值（20kHz）</li>
+                                <li><strong>关键物理参数：</strong>声速（人体软组织中约1540m/s）、波长（λ=v/f，v为声速，f为频率）、声阻抗（Z=ρv，ρ为介质密度，是反射成像的核心依据）</li>
+                                <li><strong>成像原理核心：</strong>不同组织的声阻抗差异导致超声波反射强度不同（声阻抗差越大，反射越强），通过接收并处理回波信号，重建组织形态与结构信息</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 工作原理与设备组成 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>2. 工作原理与设备组成</h3>
+                        </div>
+                        <div class="node-content">
+                            <h4>完整工作流程：</h4>
+                            <ol class="sub-node">
+                                <li>发射阶段：超声探头（换能器）将主机产生的电信号转换为超声波，定向发射至人体组织</li>
+                                <li>传播阶段：超声波穿透组织，遇到不同声阻抗界面（如脏器包膜、病变组织与正常组织边界）发生反射/散射</li>
+                                <li>接收阶段：探头接收反射/散射回的超声波，再转换为电信号传输至主机</li>
+                                <li>信号处理：主机对电信号进行放大、滤波、解调、数字化处理，去除噪声干扰，提取有效信号</li>
+                                <li>成像显示：将处理后的数字信号转换为二维/三维灰度图像或彩色血流图像，实时显示在医用显示器上</li>
+                            </ol>
+                            <h4>核心设备组成：</h4>
+                            <ul class="sub-node">
+                                <li><strong>超声探头（换能器）：</strong>核心部件，由压电晶体构成，负责电-声/声-电转换
+                                    <ul>
+                                        <li>按形态分类：线阵探头（浅表组织，如甲状腺、乳腺）、凸阵探头（腹部、妇产）、相控阵探头（心脏）</li>
+                                        <li>按频率分类：低频探头（2-5MHz，穿透深，用于腹部、心脏）、高频探头（7-10MHz，分辨率高，用于浅表组织）</li>
+                                    </ul>
+                                </li>
+                                <li><strong>主机系统：</strong>包含发射电路（产生激励电信号）、接收电路（放大回波信号）、数字信号处理器（DSP，核心处理单元）、图像重建模块</li>
+                                <li><strong>显示与存储设备：</strong>高分辨率医用灰阶显示器（支持256级以上灰阶）、硬盘/云存储（存储DICOM格式影像文件）</li>
+                                <li><strong>辅助配件：</strong>耦合剂（排除探头与皮肤间的空气，减少声能衰减）、探头支架、便携式电池（移动超声设备专用）</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 技术分类与成像模式 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>3. 技术分类与成像模式</h3>
+                        </div>
+                        <div class="node-content">
+                            <ul class="sub-node">
+                                <li>
+                                    <strong>二维超声（B超）：</strong>基础核心成像模式
+                                    <p>特点：灰度图像，直观显示组织二维解剖结构；空间分辨率1-2mm，时间分辨率30-60帧/秒；操作简便，是全身各部位常规筛查的首选</p>
+                                </li>
+                                <li>
+                                    <strong>M型超声（运动超声）：</strong>时间-空间曲线成像
+                                    <p>原理：单声束沿时间轴连续扫描，记录组织运动轨迹（如心脏瓣膜、胎心）；应用：心脏功能评估（如左心室壁运动）、胎儿心率监测</p>
+                                </li>
+                                <li>
+                                    <strong>多普勒超声（D超）：</strong>血流动力学检测模式
+                                    <ul>
+                                        <li>彩色多普勒血流成像（CDFI）：以彩色编码显示血流方向（红色朝向探头，蓝色背离探头）、流速及范围，直观判断血流是否通畅</li>
+                                        <li>频谱多普勒（PW/CW）：脉冲多普勒（PW，测量深部血流）、连续多普勒（CW，测量高速血流），定量计算血流峰值流速、平均流速等参数</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>三维/四维超声：</strong>立体动态成像
+                                    <p>三维超声：通过二维图像序列重建立体结构，清晰显示脏器形态（如胎儿面部、肝脏肿瘤）；四维超声：三维+时间维度，实时显示动态过程（如胎儿活动、心脏搏动）</p>
+                                </li>
+                                <li>
+                                    <strong>弹性超声：</strong>组织硬度成像
+                                    <p>原理：通过外部压迫或剪切波传播，测量组织弹性模量（硬度），恶性病变通常硬度高于良性；应用：甲状腺、乳腺结节良恶性鉴别，肝硬化分级</p>
+                                </li>
+                                <li>
+                                    <strong>超声造影：</strong>血管灌注成像
+                                    <p>原理：静脉注射超声造影剂（微气泡），增强血管显影，清晰显示组织血供情况；应用：肿瘤血供评估（如肝癌）、心肌灌注检查、血管狭窄程度判断</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 临床应用与典型疾病诊断 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>4. 临床应用与典型疾病诊断</h3>
+                        </div>
+                        <div class="node-content">
+                            <ul class="sub-node">
+                                <li>
+                                    <strong>腹部超声：</strong>最广泛应用领域
+                                    <p>检查部位：肝、胆、胰、脾、双肾、输尿管、膀胱、前列腺（男性）、子宫附件（女性）</p>
+                                    <p>典型疾病诊断：肝癌（低回声结节，边界不清，血流信号丰富）、胆结石（强回声光团，后方伴声影）、肾结石（强回声光斑，后方声影，可伴肾积水）、肝硬化（肝实质回声不均匀，门静脉增宽）</p>
+                                </li>
+                                <li>
+                                    <strong>心血管超声：</strong>心脏与血管检查
+                                    <p>心脏超声：评估心脏结构（如心房心室大小、瓣膜形态）与功能（如射血分数），诊断冠心病、心力衰竭、瓣膜狭窄/反流等</p>
+                                    <p>血管超声：检查颈动脉、下肢静脉等，诊断血管狭窄、斑块形成、静脉血栓（管腔内实性回声，血流信号中断）</p>
+                                </li>
+                                <li>
+                                    <strong>妇产科超声：</strong>孕期监测与妇科疾病
+                                    <p>产科应用：早孕确认（孕囊、胎心）、胎儿发育评估（双顶径、股骨长测量）、胎儿畸形筛查（如无脑儿、脊柱裂）、胎盘位置判断</p>
+                                    <p>妇科应用：子宫肌瘤（低回声结节，边界清晰）、卵巢囊肿（无回声区，壁薄光滑）、宫外孕（附件区混合回声包块）</p>
+                                </li>
+                                <li>
+                                    <strong>小器官超声：</strong>浅表组织检查
+                                    <p>甲状腺：结节分级（TI-RADS分级）、甲亢（甲状腺弥漫性增大，血流丰富呈"火海征"）</p>
+                                    <p>乳腺：乳腺增生（回声不均匀）、乳腺癌（低回声结节，边界毛刺状，血流信号丰富）</p>
+                                    <p>其他：淋巴结肿大（炎性vs转移性鉴别）、腮腺病变、皮肤软组织肿块</p>
+                                </li>
+                                <li>
+                                    <strong>介入超声：</strong>微创诊疗技术
+                                    <p>应用场景：超声引导穿刺活检（获取病理组织）、囊肿/脓肿穿刺引流、肿瘤消融治疗（如肝癌微波消融）、胎儿羊水穿刺</p>
+                                    <p>优势：实时引导，定位精准，创伤小，并发症少</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 图像质量影响因素与优化 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>5. 图像质量影响因素与优化方法</h3>
+                        </div>
+                        <div class="node-content">
+                            <h4>主要影响因素：</h4>
+                            <ul class="sub-node">
+                                <li><strong>设备因素：</strong>探头频率（高频分辨率高但穿透浅，低频反之）、主机处理算法（降噪、增强效果）、显示器分辨率</li>
+                                <li><strong>患者因素：</strong>体型（肥胖患者脂肪层厚，声能衰减严重）、呼吸运动（腹部检查时易产生伪影）、胃肠道气体（干扰胰腺、胆囊成像）</li>
+                                <li><strong>操作因素：</strong>探头位置与角度（是否对准目标组织）、耦合剂用量（不足导致空气干扰）、成像参数调节（增益、深度、聚焦点）</li>
+                            </ul>
+                            <h4>优化方法：</h4>
+                            <ul class="sub-node">
+                                <li>设备调节：根据检查部位选择合适探头（如甲状腺用高频线阵探头）、将聚焦点设置在目标区域、优化增益（避免图像过亮或过暗）</li>
+                                <li>患者配合：腹部检查前禁食6-8小时（减少胃肠道气体）、呼吸训练（吸气后屏气，减少运动伪影）、调整体位（如侧卧位改善肝脏显示）</li>
+                                <li>后处理技术：使用中值滤波、高斯滤波减少噪声，通过对比度增强突出病变边界</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 优势与局限性 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>6. 优势与局限性</h3>
+                        </div>
+                        <div class="node-content">
+                            <div class="sub-node">
+                                <h4>核心优势：</h4>
+                                <ul>
+                                    <li>无创无辐射：无电离辐射，适合孕妇、儿童及需要多次复查的患者，安全性极高</li>
+                                    <li>实时动态：可实时观察组织运动（如心脏搏动、胎儿活动），捕捉瞬间生理变化</li>
+                                    <li>便携灵活：便携式超声设备体积小、重量轻，可床旁、急救场景（如重症监护室、救护车）使用</li>
+                                    <li>成本较低：设备购置与检查费用远低于CT、MRI，适合基层医院及大规模筛查</li>
+                                    <li>操作简便：无需复杂准备，检查时间短（通常10-30分钟），患者依从性高</li>
+                                </ul>
+                                <h4>局限性：</h4>
+                                <ul>
+                                    <li>成像深度有限：对肥胖患者或深部组织（如腹腔深部病变）显示效果差</li>
+                                    <li>受气体干扰明显：胃肠道气体、肺部气体可阻挡超声波，无法显示后方组织</li>
+                                    <li>操作者依赖性强：图像质量与诊断准确性依赖医师的操作技巧和经验</li>
+                                    <li>软组织对比度有限：对某些软组织病变的鉴别能力不如MRI</li>
+                                    <li>无法显示钙化细节：对钙化灶的显示效果不如X线、CT</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 前沿进展与发展趋势 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>7. 前沿进展与发展趋势</h3>
+                        </div>
+                        <div class="node-content">
+                            <ul class="sub-node">
+                                <li><strong>超高清超声成像：</strong>提升空间分辨率（如70MHz高频超声用于皮肤成像），清晰显示微小病变（如甲状腺微小结节）</li>
+                                <li><strong>人工智能（AI）辅助诊断：</strong>基于深度学习算法，自动识别病变（如乳腺结节、胎儿畸形）、量化分析影像参数，提高诊断效率与准确性</li>
+                                <li><strong>分子超声成像：</strong>研发靶向超声造影剂（如结合肿瘤特异性抗原的微气泡），实现早期肿瘤、微小转移灶的精准诊断</li>
+                                <li><strong>弹性成像技术优化：</strong>从定性评估到定量分析（如剪切波弹性成像），提高组织硬度测量的准确性，助力良恶性病变鉴别</li>
+                                <li><strong>便携式/掌上超声：</strong>设备小型化、轻量化，结合5G技术实现远程诊断，适合基层医疗、野外救援场景</li>
+                                <li><strong>多模态融合成像：</strong>将超声与CT、MRI影像融合，结合各模态优势，提供更全面的诊断信息（如肿瘤分期评估）</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- X线成像知识图谱（7大模块，内容全面） -->
+            <div class="graph-content" id="xray-graph">
+                <div class="graph-tree">
+                    <!-- 核心定义与物理基础 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>1. 核心定义与物理基础</h3>
+                        </div>
+                        <div class="node-content">
+                            <p>X线成像是利用波长0.01-10nm的电离辐射（X射线），通过人体不同组织对X线的穿透与衰减差异，在探测器上形成影像的影像学技术，是临床最基础、最常用的影像检查方法之一。</p>
+                            <ul class="sub-node">
+                                <li><strong>X射线本质：</strong>电磁波，具有电离辐射性、穿透性、荧光效应、感光效应（是成像的核心物理基础）</li>
+                                <li><strong>衰减原理：</strong>X射线穿透人体时，会被组织吸收（衰减），吸收程度与组织密度、厚度正相关（密度越高、厚度越大，衰减越强）</li>
+                                <li><strong>影像形成：</strong>衰减后的X射线投射到探测器上，形成强度分布差异，密度高的组织（如骨）衰减强，探测器接收的X线少，影像呈白色；密度低的组织（如脂肪、空气）衰减弱，影像呈黑色/灰色</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 工作原理与设备组成 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>2. 工作原理与设备组成</h3>
+                        </div>
+                        <div class="node-content">
+                            <h4>工作流程：</h4>
+                            <ol class="sub-node">
+                                <li>X线产生：X线球管内，阴极灯丝发射电子，在高压电场作用下高速撞击阳极靶面，产生X射线</li>
+                                <li>穿透衰减：X射线穿过人体，不同组织（骨、肌肉、脂肪、空气）对X线的吸收/衰减程度不同</li>
+                                <li>探测器接收：衰减后的X射线被探测器（传统胶片或数字探测器）接收，形成强度分布信号</li>
+                                <li>影像转换：传统胶片通过感光效应形成影像；数字探测器将光信号转换为电信号，经数字化处理后形成数字影像</li>
+                                <li>显示存储：数字影像显示在医用显示器上，可存储为DICOM格式，便于后续阅片、传输与归档</li>
+                            </ol>
+                            <h4>核心设备组成：</h4>
+                            <ul class="sub-node">
+                                <li><strong>X线球管：</strong>核心部件，由阴极（灯丝，发射电子）、阳极（靶面，产生X线）、真空玻璃壳组成；靶面常用钨（耐高温、原子序数高）</li>
+                                <li><strong>高压发生器：</strong>为X线球管提供高压（10-150kV）和稳定电流（管电流，mA），控制X线的强度与穿透力</li>
+                                <li><strong>探测器：</strong>接收X射线并转换为信号
+                                    <ul>
+                                        <li>传统探测器：X线胶片（通过感光、显影、定影形成影像）</li>
+                                        <li>数字探测器：平板探测器（DR核心，直接转换X线为电信号）、CR成像板（间接转换，需阅读器处理）</li>
+                                    </ul>
+                                </li>
+                                <li><strong>控制台：</strong>调节管电压（kV，控制X线穿透力）、管电流（mA，控制X线强度）、曝光时间（s，控制X线剂量），设置检查参数</li>
+                                <li><strong>防护设备：</strong>铅衣、铅围裙、铅玻璃、防护门（减少医护人员与患者的辐射暴露）</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 技术分类与成像模式 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>3. 技术分类与成像模式</h3>
+                        </div>
+                        <div class="node-content">
+                            <ul class="sub-node">
+                                <li>
+                                    <strong>常规X线摄影（DR/CR）：</strong>最常用模式
+                                    <p>数字X线摄影（DR）：直接数字化成像，图像质量高、辐射剂量低、检查速度快（1-3分钟），是目前主流</p>
+                                    <p>计算机X线摄影（CR）：间接数字化成像（成像板+阅读器），兼容传统设备，成本较低，逐渐被DR替代</p>
+                                    <p>应用：胸部、骨骼、腹部等部位常规筛查</p>
+                                </li>
+                                <li>
+                                    <strong>CT（计算机断层扫描）：</strong>断层成像技术
+                                    <p>原理：X线束围绕人体旋转扫描，获取多个角度的投影数据，经计算机重建形成二维断层图像或三维立体图像</p>
+                                    <p>优势：密度分辨率高，可清晰显示软组织病变；应用：头部、胸部、腹部、骨骼等部位的精准诊断</p>
+                                </li>
+                                <li>
+                                    <strong>造影X线检查：</strong>增强对比度成像
+                                    <p>原理：静脉注射或口服造影剂（如碘剂、钡剂），增强目标组织与周围组织的对比度，清晰显示血管、消化道等结构</p>
+                                    <p>常见类型：心血管造影（显示血管狭窄/闭塞）、胃肠钡餐（显示消化道溃疡、肿瘤）、静脉肾盂造影（显示泌尿系统结构）</p>
+                                </li>
+                                <li>
+                                    <strong>乳腺X线摄影（钼靶）：</strong>乳腺专用检查
+                                    <p>原理：使用低能量X线（钼靶），穿透乳腺组织，显示乳腺结构；优势：对钙化灶敏感（乳腺癌常见表现）</p>
+                                    <p>应用：40岁以上女性乳腺癌筛查，乳腺结节良恶性鉴别</p>
+                                </li>
+                                <li>
+                                    <strong> fluoroscopy（透视）：</strong>实时动态成像
+                                    <p>原理：X线持续照射人体，通过荧光屏或显示器实时显示动态影像；应用：骨折复位、介入治疗引导（如血管支架植入）</p>
+                                    <p>缺点：辐射剂量高于常规摄影，检查时间不宜过长</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 临床应用与典型疾病诊断 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>4. 临床应用与典型疾病诊断</h3>
+                        </div>
+                        <div class="node-content">
+                            <ul class="sub-node">
+                                <li>
+                                    <strong>胸部X线：</strong>最常见检查项目
+                                    <p>应用：肺炎（斑片状高密度影）、肺结核（结节、空洞、条索状影）、肺癌（肿块影、分叶状边缘）、气胸（肺组织压缩，胸腔内无肺纹理区）、胸腔积液（肋膈角消失，高密度影）</p>
+                                    <p>优势：快速、便捷，适合大规模体检与急诊筛查</p>
+                                </li>
+                                <li>
+                                    <strong>骨骼X线：</strong>骨骼系统首选检查
+                                    <p>应用：骨折（骨皮质连续性中断）、脱位（关节面对位不良）、骨质疏松（骨密度降低，骨小梁稀疏）、骨肿瘤（骨质破坏、软组织肿块）、关节炎（关节间隙狭窄、骨质增生）</p>
+                                    <p>特点：空间分辨率高，可清晰显示骨皮质、骨小梁结构</p>
+                                </li>
+                                <li>
+                                    <strong>腹部X线：</strong>急诊与常规筛查
+                                    <p>应用：肠梗阻（肠管扩张，可见气液平面）、肾结石（高密度结节影）、消化道穿孔（膈下游离气体）、阑尾炎（间接征象如肠胀气）</p>
+                                    <p>局限性：软组织对比度低，对脏器实质病变显示效果差</p>
+                                </li>
+                                <li>
+                                    <strong>心血管X线：</strong>心脏与血管检查
+                                    <p>心脏X线：评估心脏大小、形态（如心衰时心脏扩大）、肺淤血程度</p>
+                                    <p>血管造影：诊断冠心病（冠状动脉狭窄）、主动脉夹层（血管内膜撕裂）、下肢静脉血栓（血管充盈缺损）</p>
+                                </li>
+                                <li>
+                                    <strong>乳腺X线（钼靶）：</strong>乳腺癌筛查
+                                    <p>典型表现：乳腺肿块（边界不规则、毛刺状）、钙化灶（微小钙化簇）、乳腺结构扭曲</p>
+                                    <p>筛查建议：40-49岁女性每1-2年1次，50岁以上每年1次</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 辐射防护与图像质量控制 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>5. 辐射防护与图像质量控制</h3>
+                        </div>
+                        <div class="node-content">
+                            <h4>辐射防护原则（ALARA原则：尽可能低的合理剂量）：</h4>
+                            <ul class="sub-node">
+                                <li>患者防护：选择合适的检查方法（避免不必要的X线检查）、优化检查参数（降低辐射剂量）、对非检查部位（如甲状腺、性腺）使用铅防护用品</li>
+                                <li>医护人员防护：穿戴铅衣、铅围裙、铅眼镜；保持安全距离（X线辐射强度与距离平方成反比）；使用防护屏障（如铅玻璃）；定期进行辐射剂量监测</li>
+                                <li>特殊人群：孕妇、哺乳期女性、儿童应尽量避免X线检查，必须检查时需严格控制剂量并告知风险</li>
+                            </ul>
+                            <h4>图像质量控制因素：</h4>
+                            <ul class="sub-node">
+                                <li><strong>设备参数：</strong>管电压（kV）控制穿透力，管电流（mA）控制影像密度，曝光时间控制运动伪影</li>
+                                <li><strong>患者因素：</strong>体位固定（避免运动伪影）、去除衣物与金属物品（如项链、钥匙，避免伪影）</li>
+                                <li><strong>后处理技术：</strong>数字影像可通过窗宽窗位调节（突出目标组织）、降噪、对比度增强等优化图像质量</li>
+                                <li><strong>设备维护：</strong>定期校准X线球管、探测器，确保设备性能稳定</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 优势与局限性 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>6. 优势与局限性</h3>
+                        </div>
+                        <div class="node-content">
+                            <div class="sub-node">
+                                <h4>核心优势：</h4>
+                                <ul>
+                                    <li>操作简便、检查速度快：常规X线检查仅需1-5分钟，适合急诊与大规模筛查</li>
+                                    <li>空间分辨率高：可清晰显示骨骼、钙化灶等细节，优于超声、MRI</li>
+                                    <li>成本相对较低：设备购置与检查费用低于CT、MRI，普及性强</li>
+                                    <li>适用范围广：可用于全身多部位检查，是临床诊断的"入门级"影像方法</li>
+                                    <li>对骨折、气胸、肺炎等疾病诊断准确性高，可快速明确诊断</li>
+                                </ul>
+                                <h4>局限性：</h4>
+                                <ul>
+                                    <li>有电离辐射：过量暴露可能损伤人体细胞，特殊人群（孕妇、儿童）需谨慎</li>
+                                    <li>软组织对比度低：对肌肉、脏器实质等软组织病变的鉴别能力有限（不如MRI、超声）</li>
+                                    <li>二维成像：缺乏三维空间信息，可能遗漏重叠部位的病变</li>
+                                    <li>部分检查需造影剂：造影剂可能引起过敏反应，肾功能不全者需慎用</li>
+                                    <li>对微小病变敏感性低：早期肿瘤、微小骨折等可能漏诊</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 前沿进展与发展趋势 -->
+                    <div class="graph-node">
+                        <div class="node-header" onclick="toggleNode(this)">
+                            <i class="fas fa-chevron-right"></i>
+                            <h3>7. 前沿进展与发展趋势</h3>
+                        </div>
+                        <div class="node-content">
+                            <ul class="sub-node">
+                                <li><strong>低剂量X线技术：</strong>通过优化设备算法（如迭代重建）、降低管电流等，在保证图像质量的前提下减少辐射剂量（如低剂量胸部CT筛查肺癌，剂量仅为常规CT的1/5）</li>
+                                <li><strong>人工智能辅助诊断：</strong>基于深度学习算法，自动检测病变（如肺结节、骨折、乳腺癌钙化灶）、量化分析影像参数，提高诊断效率，减少漏诊误诊</li>
+                                <li><strong>锥形束CT（CBCT）：</strong>小视野、高分辨率成像，主要用于牙科（种植牙规划）、骨科（骨折复位引导）、介入治疗导航，辐射剂量低于常规CT</li>
+                                <li><strong>功能X线成像：</strong>突破传统解剖成像局限，提供生理功能信息（如肺通气功能成像、心肌灌注成像），助力早期疾病诊断</li>
+                                <li><strong>数字化与智能化：</strong>影像数据云端存储、远程会诊（结合5G技术），实现医疗资源共享；设备自动化操作（如自动定位、参数优化），降低操作者依赖性</li>
+                                <li><strong>多模态融合：</strong>将X线/CT与超声、MRI影像融合，结合各模态优势，提供更全面的诊断信息（如肿瘤分期、治疗效果评估）</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>电话：17784546550</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>邮箱：yongcuo2025@163.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-university"></i>
+                        <span>学校：天津医科大学</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-github"></i>
+                        <span>GitHub：<a href="https://github.com/yongcuo" target="_blank">github.com/yongcuo</a></span>
+                    </div>
+                </div>
+                <!-- 联系表单（JS提交反馈效果） -->
+                <div class="contact-form">
+                    <h3>发送消息给我</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="你的姓名" required>
+                        <input type="email" placeholder="你的邮箱" required>
+                        <textarea placeholder="请输入消息内容" required></textarea>
+                        <button type="submit" class="btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 其美拥措的个人学术主页 | 基于HTML/CSS/JavaScript构建</p>
+            <p>专业方向：医学影像学（超声/X线成像）</p>
+        </div>
+    </footer>
+
+    <!-- 引入脚本文件（加分项动态效果） -->
+    <script src="script.js"></script>
+</body>
+</html>
