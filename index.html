@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>其美拥措 - 个人学术主页</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入d3.js用于知识图谱 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <!-- 导航条（加分项） -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#education">教育背景</a></li>
+            <li><a href="#experience">校园经历</a></li>
+            <li><a href="#certificates">证书荣誉</a></li>
+            <li><a href="#knowledge-graph">知识图谱</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页板块 -->
+    <section id="home" class="section">
+        <div class="home-container">
+            <div class="profile-photo">
+                <!-- 🔥 核心修正：适配你的实际路径 + 修正文件名错误 -->
+                <!-- 路径：assets/images/（复数assets，无photo文件夹） -->
+                <!-- 文件名：qimei.jpg（修正qimei.photo.jpg的错误后缀，不能有两个"."） -->
+                <img src="assets/images/qimei.jpg" alt="其美拥措个人照片" style="width:250px;height:250px;object-fit:cover;" onerror="this.src='https://via.placeholder.com/250'">
+            </div>
+            <div class="profile-info">
+                <h1>其美拥措</h1>
+                <p>性别：女 | 年龄：22岁</p>
+                <p>专业：天津医科大学 医学影像学（本科）</p>
+                <p class="self-intro">认真学习、勤学好进、热爱生活，具备扎实的医学影像理论与实践基础，熟练掌握超声成像、X线成像等核心技术的原理与应用，拥有良好的团队协作和沟通能力，擅长快速适应新环境并高效执行任务。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景板块（补充核心课程，更完整） -->
+    <section id="education" class="section">
+        <h2>教育背景</h2>
+        <div class="edu-card">
+            <p><strong>学校</strong>：天津医科大学</p>
+            <p><strong>专业</strong>：医学影像学（本科）</p>
+            <p><strong>时间</strong>：2022.8 - 至今</p>
+            <p><strong>核心课程</strong>：医学影像学、超声诊断学、X线诊断学、影像解剖学、放射物理学、临床影像学</p>
+            <p><strong>成绩</strong>：专业课程平均成绩80+，无挂科记录</p>
+            <p><strong>英语水平</strong>：大学英语四级（CET4）、六级（CET6）已通过</p>
+        </div>
+    </section>
+
+    <!-- 校园经历板块（补充影像相关实践） -->
+    <section id="experience" class="section">
+        <h2>校园经历</h2>
+        <ul class="exp-list">
+            <li>积极参与敬老院志愿服务，为老人提供健康咨询与基础影像检查科普</li>
+            <li>参与献血屋志愿活动，协助完成献血者登记、引导及健康筛查辅助工作</li>
+            <li>参与疫苗接种志愿服务，负责现场秩序维护与信息核对，保障接种流程顺畅</li>
+            <li>作为共青团员，积极参加团会及各类班级活动，组织医学影像知识分享会1次</li>
+            <li>跟随导师参与超声影像病例整理项目，协助分类归档典型病例影像资料</li>
+        </ul>
+    </section>
+
+    <!-- 证书荣誉板块（补充更多证书） -->
+    <section id="certificates" class="section">
+        <h2>证书荣誉</h2>
+        <div class="cert-card">
+            <span>大学英语四级证书（CET4）</span>
+            <span>大学英语六级证书（CET6）</span>
+            <span>计算机二级证书（MS Office）</span>
+            <span>医学影像技术基础实训合格证书</span>
+            <span>志愿服务优秀参与者</span>
+        </div>
+    </section>
+
+    <!-- 知识图谱板块（恢复超声+X线双图谱切换） -->
+    <section id="knowledge-graph" class="section">
+        <h2>医学影像知识图谱</h2>
+        <div class="kg-tabs">
+            <button class="kg-tab active" data-type="ultrasound">超声成像</button>
+            <button class="kg-tab" data-type="xray">X线成像</button>
+        </div>
+        <div id="kg-container"></div>
+        <div id="kg-detail" class="kg-detail">点击节点查看详情</div>
+    </section>
+
+    <!-- 联系方式板块 -->
+    <section id="contact" class="section">
+        <h2>联系方式</h2>
+        <div class="contact-card">
+            <p><strong>电话</strong>：17784546550</p>
+            <p><strong>邮箱</strong>：yongcuo2025@163.com</p>
+            <p><strong>GitHub</strong>：https://github.com/你的用户名（替换为你的GitHub地址）</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
